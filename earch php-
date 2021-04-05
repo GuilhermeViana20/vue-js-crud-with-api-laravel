@@ -1,0 +1,19 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2021-04-05 10:44:42 -03; 7s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 18118 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 18122 (apache2)
+      Tasks: 6 (limit: 9304)
+     Memory: 10.7M
+     CGroup: /system.slice/apache2.service
+             ├─18122 /usr/sbin/apache2 -k start
+             ├─18123 /usr/sbin/apache2 -k start
+             ├─18124 /usr/sbin/apache2 -k start
+             ├─18125 /usr/sbin/apache2 -k start
+             ├─18126 /usr/sbin/apache2 -k start
+             └─18127 /usr/sbin/apache2 -k start
+
+abr 05 10:44:42 GUILHERME-DESKTOP-KUBUNTU systemd[1]: Starting The Apache HTTP Server...
+abr 05 10:44:42 GUILHERME-DESKTOP-KUBUNTU apachectl[18121]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+abr 05 10:44:42 GUILHERME-DESKTOP-KUBUNTU systemd[1]: Started The Apache HTTP Server.
